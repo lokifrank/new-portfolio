@@ -1,0 +1,41 @@
+@import "./variables.css";
+
+.skills-section {
+    overflow: hidden;
+    border-top: 1px solid var(--secondary_dark);
+    border-bottom: 1px solid var(--secondary_dark);
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.skills-scroll {
+    display: flex;
+    gap: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding: 15px 0;
+}
+
+.skills-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.skill-pill {
+    padding: 10px 22px;
+    border-radius: 999px;
+
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+
+    color: white;
+    flex-shrink: 0;
+
+    transition: .3s;
+}
+
+.skill-pill:hover {
+    background: var(--primary_secondary);
+    cursor: pointer;
+}

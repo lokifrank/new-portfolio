@@ -1,0 +1,126 @@
+@import "./variables.css";
+
+.timeline{
+    position:relative;
+    margin-bottom:40px;
+}
+
+.timeline-line{
+
+    position:absolute;
+    top:48px;
+    left:10%;
+    width:80%;
+    height:2px;
+
+    /* background: var(--primary); */
+    background:linear-gradient(135deg, var(--primary), var(--primary_secondary));
+}
+
+.year-badge{
+
+    width:98px;
+    height:98px;
+
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-size:36px;
+    font-weight:700;
+
+    margin:auto;
+
+    position:relative;
+    z-index:2;
+
+    transition:.4s;
+}
+
+.year-badge.blue-glow{
+
+    background:linear-gradient(135deg, var(--primary), var(--primary_secondary));
+
+    box-shadow:
+    0 0 30px rgba(0,198,255,.35);
+
+}
+
+.year-badge.purple-glow{
+
+    background:linear-gradient(135deg, var(--primary_secondary), var(--primary));
+
+    box-shadow:
+    0 0 30px rgba(123,47,247,.35);
+
+}
+
+.journey-card{
+
+    background:#121821;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    text-align:center;
+
+    height:100%;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+}
+
+.journey-card.blue-glow{
+
+    border-color:rgba(0,198,255,.25);
+
+}
+
+.journey-card.purple-glow{
+
+    border-color:rgba(123,47,247,.25);
+
+}
+
+.journey-icon{
+
+    width:55px;
+    height:55px;
+
+    margin:auto auto 25px;
+
+    border-radius:14px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#182231;
+}
+
+.journey-icon i{
+
+    color: var(--primary);
+
+    font-size:24px;
+}
+
+.journey-card h3{
+
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.journey-card p{
+
+    color:#9aa4b2;
+
+    line-height:1.8;
+    margin-bottom:25px;
+}

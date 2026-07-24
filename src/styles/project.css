@@ -1,0 +1,383 @@
+@import "./variables.css";
+
+/* .project-card{
+
+    background:#151b24;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.project-header{
+
+    height:130px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    position:relative;
+
+}
+
+.gradient-blue{
+
+    background:linear-gradient(135deg,#00c6ff,#6c3cff);
+
+}
+
+.gradient-purple{
+
+    background:linear-gradient(135deg,#8b2eff,#ff5ba7);
+
+}
+
+.gradient-green{
+
+    background:linear-gradient(135deg,#22c55e,#06b6d4);
+
+}
+
+.gradient-orange{
+
+    background:linear-gradient(135deg,#ff9800,#ff3d00);
+
+}
+
+.project-icon{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:15px;
+
+    background:rgba(255,255,255,.15);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+}
+
+.project-icon i{
+
+    font-size:28px;
+
+}
+
+.project-badge{
+
+    background:rgba(0,194,255,.15);
+
+    color:#00c2ff;
+
+    border:1px solid rgba(0,194,255,.25);
+
+}
+
+.view-btn{
+
+    background:linear-gradient(
+        90deg,
+        #00c2ff,
+        #6f2cff
+    );
+
+    color:white;
+
+}
+
+.view-btn:hover{
+
+    color:white;
+
+}
+
+.github-btn{
+
+    background:#1d2430;
+
+    color:white;
+
+}
+
+.project-header::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    top:-30px;
+
+    left:-20px;
+
+}
+
+.project-header::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+    right:-30px;
+
+    bottom:-30px;
+
+} */
+
+.project-card{
+
+    background:#171c24;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.35s;
+    border:1px solid rgba(255,255,255,.06);
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+
+}
+
+.project-header{
+
+    height:150px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    position:relative;
+
+}
+
+.gradient-blue{
+
+    background:linear-gradient(135deg,#2ea7ff,#5a54ff);
+
+}
+
+.gradient-purple{
+
+    background:linear-gradient(135deg,#8d2fff,#ff5ea8);
+
+}
+
+.gradient-cyan{
+
+    background:linear-gradient(135deg,#22b8ff,#17d9a3);
+
+}
+.gradient-orange{
+    background:linear-gradient(135deg,#f8db06,#f5930b);
+}
+.gradient-green{
+    background:linear-gradient(135deg,#18f65a,#8efa84);
+}
+.project-icon{
+
+    width:70px;
+
+    height:70px;
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    backdrop-filter:blur(10px);
+
+}
+
+.project-icon i{
+
+    font-size:30px;
+
+    color:white;
+
+}
+
+.project-body{
+
+    padding:25px;
+
+    color:white;
+
+}
+
+.project-description{
+
+    color:#9fa6b2;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    margin:20px 0;
+
+}
+
+.tech-badge{
+
+    display:inline-block;
+
+    background:#233547;
+
+    color:white;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    margin-bottom:8px;
+
+}
+
+.app-badge{
+
+    background:#254bff;
+
+}
+
+.github-btn{
+
+    width:50px;
+
+}
+
+.contact-divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    width:100%;
+}
+
+.divider-line{
+    flex:0.1;
+    /* width:10px; */
+    height:2px;
+    background:linear-gradient(
+        to right,
+        transparent,
+        rgba(0, 194, 255,.6)
+    );
+}
+
+.divider-line:last-child{
+    background:linear-gradient(
+        to left,
+        transparent,
+        rgba(0, 194, 255,.6)
+    );
+}
+
+.contact-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    border:1px solid rgba(0, 194, 255,.35);
+
+    background:#111827;
+
+    color: var(--primary);
+
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+
+    transition:.3s;
+}
+
+.contact-btn:hover{
+    background: var(--primary);
+    color:white;
+    box-shadow:0 0 20px rgba(0, 194, 255,.35);
+}
+
+.project-section-bg-img {
+    min-height: 100vh;
+
+    background-image:
+    url("../assets/images/Overlay+Blur_purple.png"),
+    url("../assets/images/Overlay+Blur2.png");
+        
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    background-position:
+        top right ,
+        bottom left ;
+
+    background-size:
+        30%,
+        30%;
+}
+
+.tech-badge {
+  padding: 5px 12px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
