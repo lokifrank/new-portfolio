@@ -107,7 +107,7 @@ function Navbar() {
 
           {/* Logo */}
 
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#home">
 
             <img
               src={icon}
