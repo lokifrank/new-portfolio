@@ -1,4 +1,6 @@
 import "../styles/footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import socialLinks from "../data/socialLinks";
 
 // function Footer() {
 //   return (
@@ -180,7 +182,7 @@ function Footer() {
               Flutter, Laravel & React developer based in Douala.
             </p>
 
-            <div className="d-flex gap-3">
+            {/* <div className="d-flex gap-3">
 
               <a href="#" className="social-icon">
                 <i className="bi bi-github"></i>
@@ -198,7 +200,30 @@ function Footer() {
                 <i className="bi bi-dribbble"></i>
               </a>
 
-            </div>
+            </div> */}
+
+            <ul className="social-links justify-content-start align-items-center">
+                                
+                                            {socialLinks.map((social) => (
+                                
+                                                <li key={social.id}>
+                                
+                                                    <a
+                                                        href={social.url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        aria-label={social.name}
+                                                    >
+                                
+                                                        <FontAwesomeIcon icon={social.icon} />
+                                
+                                                    </a>
+                                
+                                                </li>
+                                
+                                            ))}
+                                
+                                        </ul>
 
           </div>
 
@@ -212,11 +237,11 @@ function Footer() {
 
             <ul className="list-unstyled">
 
-              <li className="mb-3"><a href="#" className="footer-link">Home</a></li>
-              <li className="mb-3"><a href="#" className="footer-link">About</a></li>
-              <li className="mb-3"><a href="#" className="footer-link">Skills</a></li>
-              <li className="mb-3"><a href="#" className="footer-link">Projects</a></li>
-              <li><a href="#" className="footer-link">Contact</a></li>
+              <li className="mb-3"><a href="#home" className="footer-link">Home</a></li>
+              <li className="mb-3"><a href="#about" className="footer-link">About</a></li>
+              <li className="mb-3"><a href="#skill" className="footer-link">Skills</a></li>
+              <li className="mb-3"><a href="#work" className="footer-link">Projects</a></li>
+              <li><a href="#contact" className="footer-link">Contact</a></li>
 
             </ul>
 

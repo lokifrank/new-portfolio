@@ -142,31 +142,31 @@ function Navbar() {
             <ul className="navbar-nav mx-auto gap-lg-4 text-center">
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light" href="#home">
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light" href="#about">
                   About
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light" href="#skill">
                   Skills
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light" href="#work">
                   Projects
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light" href="#contact">
                   Contact
                 </a>
               </li>

@@ -127,7 +127,7 @@ const handleSubmit = async (e) => {
 
 };
     return(
-        <section className="container-fluid my-2 p-2 p-md-5 text-center contact-section-bg-img" style={{backgroundColor:"rgba(0, 0, 0, 0.2)"}}>
+        <section id="contact" className="container-fluid my-2 p-2 p-md-5 text-center contact-section-bg-img" style={{backgroundColor:"rgba(0, 0, 0, 0.2)"}}>
 
                         <div className="spacer-1"></div>
                         <div className="row">

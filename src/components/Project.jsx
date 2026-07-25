@@ -39,7 +39,7 @@ function Projeccts() {
 
     return (
 
-        <section className="container-fluid p-2 p-md-5 text-center project-section-bg-img">
+        <section id="work" className="container-fluid p-2 p-md-5 text-center project-section-bg-img">
 
             <div className="row">
                                         <div className="contact-divider">

@@ -12,7 +12,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
     return (
-        <section className="container-fluid p-sm-5 my-5 about-section-bg-img">
+        <section id="about" className="container-fluid p-sm-5 my-5 about-section-bg-img">
 
             <div className="row spacer-1"></div>
             <div className="row px-sm-5 my-5">

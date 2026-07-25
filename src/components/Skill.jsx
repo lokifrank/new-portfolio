@@ -9,7 +9,7 @@ import "../styles/journey.css";
 
 function Skill() {
     return (
-        <section className="container-fluid my-4 text-center">
+        <section id="skill" className="container-fluid my-4 text-center">
 
             <div className="row m-3">
                 <div className="col-10 col-md-4 col-lg-2 mx-auto py-1 border border-info border-opacity-25 rounded-pill">

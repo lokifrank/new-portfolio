@@ -6,7 +6,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
     return (
-        <section className="container-fluid px-5 py-5 ">
+        <section id="home" className="container-fluid px-5 py-5 ">
             <div className="row align-items-center hero min-vh-100">
                  {/* Right Side */}
                 <div className=" d-block d-lg-none col-sm-10 mx-auto text-center">

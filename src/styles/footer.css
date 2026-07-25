@@ -280,3 +280,59 @@
     color:white;
     opacity:.95;
 }
+
+.social-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+}
+
+.social-links li a{
+
+    width:52px;
+
+    height:52px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    border-radius:16px;
+
+    color:#9CA3AF;
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:all .35s ease;
+
+}
+
+.social-links li a:hover{
+
+    color:white;
+
+    border-color:#2563eb;
+
+    background:rgba(37,99,235,.15);
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.25);
+
+}
